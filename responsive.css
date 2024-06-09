@@ -1,0 +1,51 @@
+@media (min-width: 768px){      
+    .hero__main{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (width > 1024px){
+    .nav{
+        height: 120px;
+        
+        --opacity-menu: 1;
+        --transform-menu: unset;
+        --pointer-menu: unset;
+    }
+
+    .nav__menu{
+        position: static;
+        flex-grow: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .nav__links{ 
+        display: flex;             
+        margin: 0 auto;
+        flex-direction: row;
+        gap: 1.2rem;
+        margin-right: 5%;        
+    }
+
+    .nav__label{
+        display: none;
+    }
+
+    
+
+    
+
+    
+
+    
+        
+
+    
+}
